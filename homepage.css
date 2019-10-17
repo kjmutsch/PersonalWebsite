@@ -1,0 +1,149 @@
+body {
+	margin: 0;
+}
+
+.nav-bar {
+	display: inline-block;
+	background-color: #222831;
+}
+
+.nav-bar .home {
+	display: inline-block;
+	font-family: 'Mansalva', cursive;
+	font-size: 22px;
+	position: absolute;
+	left: 12%;
+	top: 15px;
+	color: #eeeeee;
+	transition: 1s;
+}
+
+.nav-bar .home:hover {
+	color: #00818a;
+}
+
+.nav-bar .resume {
+	display: inline-block;
+	font-family: 'Mansalva', cursive;
+	font-size: 22px;
+	position: absolute;
+	left: 35%;
+	top: 15px;
+	color: #eeeeee;
+	transition: 1s;
+}
+
+.nav-bar .resume:hover {
+	color: #00818a;
+}
+
+.nav-bar .youtube {
+	display: inline-block;
+	font-family: 'Mansalva', cursive;
+	font-size: 22px;
+	position: absolute;
+	left: 60%;
+	top: 15px;
+	color: #eeeeee;
+	transition: 1s;
+}
+
+.nav-bar .youtube:hover {
+	color: #00818a;
+}
+
+.nav-bar .contact {
+	display: inline-block;
+	font-family: 'Mansalva', cursive;
+	font-size: 22px;
+	position: absolute;
+	left: 80%;
+	top: 15px;
+	color: #eeeeee;	
+	transition: 1s;
+}
+
+.nav-bar .contact:hover {
+	color: #00818a;
+}
+
+.earth {
+	display: none;
+}
+
+.top {
+	background-color: #222831;
+	display: inline-block;
+	text-align: center;
+	color: #eeeeee;
+	height: 1000px;
+	width: 100%;
+}
+
+.top .text {
+	text-align: center;
+	display: inline-block;
+	margin-top: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.top .text .kiara {
+	margin-bottom: 0;
+	font-family: 'Mansalva', cursive;
+	font-size: 70px;
+}
+
+p {
+	font-family: 'Source Serif Pro';
+	font-size: 30px;
+}
+
+h3 {
+	font-family: 'Source Serif Pro', serif;
+	font-size: 20px;
+}
+
+.middle {
+	background-color: #eeeeee;
+	text-align: center;
+	color: #222831;
+	height: 3000px;
+}
+
+.bottom {
+	text-align: center;
+}
+
+.picture {
+	position: relative;
+}
+
+h2 {
+	font-family: 'Mansalva', cursive;
+	color: #222831;
+	text-align: center;
+	top: 20%;
+	padding-top: 40px;
+	font-size: 45px;
+}
+
+.artist {
+	display: inline-block;
+	position: relative;
+	left: 40%;
+	bottom: 120px;
+}
+
+.pointer{
+	animation-name: arrows;
+	animation-duration: 5s;
+	animation-fill-mode: both;
+	animation-iteration-count: 2;
+	animation-delay: 2s;
+}
+
+@keyframes arrows{
+	from{}
+	to{}
+}
