@@ -1,0 +1,157 @@
+body {
+	margin: 0;
+	width: 100%;
+	color: #eeeeee;
+	overflow-x: hidden;
+}
+
+h2 {
+	text-align: center;
+	position: relative;
+	top: 200px;
+}
+
+.top {
+	background-color: #222831;
+	text-align: center;
+	height: 2300px;
+	width: 100%;
+	display: inline-block;
+}
+
+.video{
+	position: absolute;
+	font-family:'Mansalva', cursive;
+	font-size: 40px;
+	left: 10%;
+	top: 52%;
+}
+
+.alien {
+	position: absolute;
+	top: 200px;
+	left:640px;
+}
+
+.youtubeLink {
+	position: relative;
+	top: 850px;
+	font-size: 20px;
+}
+
+.nav-bar {
+	display: inline-block;
+	background-color: #222831;
+}
+
+.nav-bar .home {
+	display: inline-block;
+	font-family: 'Mansalva', cursive;
+	font-size: 22px;
+	position: absolute;
+	left: 12%;
+	top: 15px;
+	color: #eeeeee;
+}
+
+.nav-bar .home:hover {
+	color: #00818a;
+	transition: color 1s;
+}
+
+.nav-bar .resume {
+	display: inline-block;
+	font-family: 'Mansalva', cursive;
+	font-size: 22px;
+	position: absolute;
+	left: 35%;
+	top: 15px;
+	color: #eeeeee;
+}
+
+.nav-bar .resume:hover {
+	color: #00818a;
+	transition: color 1s;
+}
+
+.nav-bar .youtube {
+	display: inline-block;
+	font-family: 'Mansalva', cursive;
+	font-size: 22px;
+	position: absolute;
+	left: 60%;
+	top: 15px;
+	color: #eeeeee;
+}
+
+.nav-bar .youtube:hover {
+	color: #00818a;
+	transition: color 1s;
+}
+
+.nav-bar .contact {
+	display: inline-block;
+	font-family: 'Mansalva', cursive;
+	font-size: 22px;
+	position: absolute;
+	left: 80%;
+	top: 15px;
+	color: #eeeeee;
+}
+
+.nav-bar .contact:hover {
+	color: #00818a;
+	transition: color 1s;
+}
+
+a {
+	color: #eeeeee;
+}
+
+.highlight {
+	position: absolute;
+	right: 55%;
+	top: 70%;
+	border-radius: 15px;
+	box-shadow: -10px 10px 10px #888;
+}
+
+.vid2 {
+	position: absolute;
+	left: 55%;
+	top: 70%;
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px  #8186d5;
+}
+
+.vid3 {
+	position: absolute;
+	right: 55%;
+	top: 130%;
+	border-radius: 15px;
+	box-shadow: -10px 10px 10px #fda77f;
+}
+
+.vid4 {
+	position: absolute;
+	left: 55%;
+	top: 130%;
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px  #ffcccc;
+}
+
+.vid5{
+	position: absolute;
+	right: 55%;
+	top: 190%;
+	border-radius: 15px;
+	box-shadow: -10px 10px 10px #d1eecc;
+}
+
+.vid6 {
+	position: absolute;
+	left: 55%;
+	top: 190%;
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px  #b0deff;
+}

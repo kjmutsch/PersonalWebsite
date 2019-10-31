@@ -1,0 +1,538 @@
+body {
+	margin: 0;
+	width: 100%;
+	color: #eeeeee;
+	overflow-x: hidden;
+}
+
+h2 {
+	text-align: center;
+	position: relative;
+	top: 200px;
+}
+
+.nav-bar {
+	display: inline-block;
+	background-color: #222831;
+}
+
+.nav-bar .home {
+	display: inline-block;
+	font-family: 'Mansalva', cursive;
+	font-size: 22px;
+	position: absolute;
+	left: 12%;
+	top: 15px;
+	color: #eeeeee;
+}
+
+.nav-bar .home:hover {
+	color: #00818a;
+	transition: color 1s;
+}
+
+.nav-bar .resume {
+	display: inline-block;
+	font-family: 'Mansalva', cursive;
+	font-size: 22px;
+	position: absolute;
+	left: 35%;
+	top: 15px;
+	color: #eeeeee;
+}
+
+.nav-bar .resume:hover {
+	color: #00818a;
+	transition: color 1s;
+}
+
+.nav-bar .youtube {
+	display: inline-block;
+	font-family: 'Mansalva', cursive;
+	font-size: 22px;
+	position: absolute;
+	left: 60%;
+	top: 15px;
+	color: #eeeeee;
+}
+
+.nav-bar .youtube:hover {
+	color: #00818a;
+	transition: color 1s;
+}
+
+.nav-bar .contact {
+	display: inline-block;
+	font-family: 'Mansalva', cursive;
+	font-size: 22px;
+	position: absolute;
+	left: 80%;
+	top: 15px;
+	color: #eeeeee;
+}
+
+.nav-bar .contact:hover {
+	color: #00818a;
+	transition: color 1s;
+}
+
+.job1 {
+	position: relative;
+	top: -30px;
+	font-size: 50px;
+	display: inline-block;
+	font-family: 'SourceSerifPro';
+}
+
+.job1paragraph {
+	position: relative;
+	top: -60px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 0px;
+	font-size: 24px;
+	font-family: 'SourceSerifPro';
+}
+
+.CSLC {
+	margin-top: 0px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 8px;
+	position: relative; 
+	top: -20px;
+}
+
+.CSbuilding {
+	font-family: 'SourceSerifPro';
+	font-size: 20px;
+}
+
+.job2 {
+	position: relative;
+	display: inline-block;
+	font-size: 50px;
+	top: 200px;
+	font-family: 'SourceSerifPro';
+}
+
+.job2paragraph {
+	position: relative;
+	top: 200px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 0px;
+	font-size: 24px;
+	font-family: 'SourceSerifPro';
+}
+
+.Cozmo {
+	position: relative;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 8px;
+	margin-right: 40px;
+	top: 275px;
+}
+
+.Vex {
+	position: relative; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 8px;
+	margin-left: 40px;
+	top: 275px;
+}
+
+.job3 {
+	position: relative;
+	top: 500px;
+	font-size: 50px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 0px;
+	display: inline-block;
+	font-family: 'SourceSerifPro';
+}
+
+.job3paragraph {
+	position: relative;
+	top: 500px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 0px;
+	font-size: 24px;
+	font-family: 'SourceSerifPro';
+}
+
+.PCA {
+	position: relative; 
+	left: 50%;
+	right: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 20px;
+	border: 10px;
+	top: 600px;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.overlay {
+	top: 600px;
+	margin-left: 50.5%;
+	border-radius: 20px;
+	margin-bottom: 50px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	background-color: #008CBA;
+	width: 100%;
+	height: 0;
+	transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text2 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text3 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.gilroy {
+	position: relative;
+	top: 700px;
+	font-size: 24px;
+}
+
+.PGSEA {
+	margin-top: 100px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 8px;
+	position: relative; 
+	border: 10px;
+	margin-left: 20px;
+	top: 600px;
+}
+
+.job4 {
+	position: relative;
+	top: 1000px;
+	font-size: 50px;
+	margin-right: 10px;
+	margin-left: 10px;
+	display: inline-block;
+	font-family: 'SourceSerifPro';
+}
+
+.job4paragraph {
+	position: relative;
+	top: 1000px;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-size: 24px;
+}
+
+.wisco2 {
+	position: relative;
+	top: 1000px;
+	margin-right: 10px;
+	margin-left: 10px;
+	right: 300px;
+}
+
+.article {
+	position: relative;
+	top: 825px;
+	margin-right: 10px;
+	margin-left: 10px;
+	left: 100px;
+	font-size: 35px;
+}
+
+.job5 {
+	position: relative;
+	top: 1100px;
+	font-size: 50px;
+	margin-right: 10px;
+	margin-left: 10px;
+	display: inline-block;
+	font-family: 'SourceSerifPro';
+}
+
+.videoEx {
+	position: relative;
+	top: 1150px;
+}
+
+.job5paragraph {
+	position: relative;
+	top: 1100px;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-size: 24px;
+}
+
+.youtubeLink {
+	position: relative;
+	top: 1150px;
+	font-size: 20px;
+}
+
+.download {
+	font-family: 'Mansalva', cursive;
+	color: #222831;
+	font-size: 50px;
+	margin-right: 15px;
+	position: relative;
+	top: 1200px;
+}
+
+.colorChange {
+	color: #222831;
+}
+
+.job {
+	font-family: 'Mansalva', cursive;
+	font-size: 50px;
+	margin-right: 15px;
+}
+
+.road{
+	position: relative;
+	height: 25%;
+	display: inline-block;
+	background: dimgrey;
+	box-sizing: border-box;
+	border-top: 10px solid grey;
+	border-bottom: 10px solid grey;
+	width: 100%;
+}
+
+.top {
+	background-color: #222831;
+	text-align: center;
+	color: #eeeeee;
+	height: 1800px;
+	width: 100%;
+	display: inline-block;
+}
+
+.top .workPics{
+	position: relative;
+	display: inline-block;
+	height: 300px;
+}
+
+.kiara {
+	position: absolute;
+	top: 275px;
+	left: 340px;
+}
+
+.l1 {
+	top: 40px;
+	font-size: 20px;
+	font-family: 'Mansalva', cursive;
+	position: relative;
+	display: inline-block;
+	margin-top: 350px;
+	margin-right: 24%;
+}
+.l2{
+	top: 40px;
+	margin-top: 25%;
+	font-size: 20px;
+	display:inline-block;
+	position: relative;
+	font-family: 'Mansalva', cursive;
+	margin-left: 0%;
+}
+.l3{
+	top: 40px;
+	font-size: 20px;
+	display:inline-block;
+	margin-left:25%;
+	position: relative;
+	font-family: 'Mansalva', cursive;
+}
+
+.middle {
+	background-color: #222831;
+	text-align: center;
+	color: #eeeeee;
+	height: 5400px;
+	width: 100%;
+	display: inline-block;
+}
+
+.text1 {
+	font-family: 'Mansalva', cursive;
+	display: inline-block;
+	font-size: 45px;
+	margin-bottom: 100px;
+	margin-top: 200px;
+}
+
+.resume {
+	position: absolute;
+	top: 400px;
+	left: 25%;
+}
+
+a {
+	color: #eeeeee;
+}
+
+.fixed{
+	position:fixed;
+	bottom:0px;
+	right:0px;
+}
+
+form {
+	margin-top: 250px;
+	transition: all 2s ease-in-out, color 1ms;
+	color: #eeeeee;
+}
+
+.contactMe {
+	transition: all 2s ease-in-out, color 1ms;
+	position: relative;
+	font-family:'Mansalva', cursive;
+	color: #eeeeee;
+	text-transform: uppercase;
+	font-size: 40px;
+	left: auto;
+	top: 150px;
+	margin-bottom: 0;
+}
+
+.form-control {
+	width: 600px;
+	background: transparent;
+	border:none;
+	outline:none;
+	border-bottom: 1px solid #eeeeee;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+.contact-form {
+	text-align: center;
+	color: #eeeeee;
+}
+
+.subContact {
+	transition: all 2s ease-in-out, color 1ms;
+	position: relative;
+	color: #eeeeee;
+	font-family:'Mansalva', cursive;
+	font-size: 25px;
+	left: auto;
+	top: 175px;
+	background-color:#00818a
+}
+
+input {
+	height: 45px;
+}
+
+.submit {
+	background: #00adb5;
+	border-color: transparent;
+	color: #eeeeee;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+.submit:hover {
+	background-color: #00818a;
+	cursor: pointer;
+}
+
+.lines{
+  box-sizing: border-box;
+  border: 5px dashed #fff;
+  height: 0px;
+  width: 100%;
+  position: absolute;
+  top: 45%;
+}
+
+.cars{
+	animation-name: drive;
+	position: absolute;
+	top: 30px;
+	animation-duration: 7s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+}
+
+.blueCar{
+	animation-name: drive;
+	animation-direction: reverse;
+	position: absolute;
+	top: 220px;
+	animation-duration: 6s;
+	animation-fill-mode: both;
+	animation-delay: 3s;
+	animation-iteration-count: infinite;
+}
+
+.AlexaCafe {
+	transform: rotate(30deg);
+}
+
+.idTech {
+	transform: rotate(-30deg);
+}
+
+.thankYou {
+	font-size: 100px;
+	font-family: 'Mansalva', cursive;
+	margin-top: 350px;
+}
+
+@keyframes drive{
+	from{ transform: translateX(-1000px)}
+	to{ transform: translateX(1000px) }
+}
